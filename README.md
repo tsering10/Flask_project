@@ -7,9 +7,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 #Prerequisites
 
-What things you need to install the software and how to install them:
+What things you need to install and how to install them:
 
 > pip install -r requirements.txt 
+
+
+> pip install folium
 
 
 > git clone https://github.com/tsering10/Flask_project.git
