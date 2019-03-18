@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_83a7045c1f36484c974a19aa7d6d1fa4 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_83a7045c1f36484c974a19aa7d6d1fa4" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_83a7045c1f36484c974a19aa7d6d1fa4 = L.map(
+        'map_83a7045c1f36484c974a19aa7d6d1fa4', {
+        center: [48.863208028372036, 2.3462614760465077],
+        zoom: 13,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_93137694d29c4b2c80510ce42558c43b = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_83a7045c1f36484c974a19aa7d6d1fa4);
+    
+            var marker_cluster_2fcf1dbb229e42ca97bfb881a4a40a4c = L.markerClusterGroup({});
+            map_83a7045c1f36484c974a19aa7d6d1fa4.addLayer(marker_cluster_2fcf1dbb229e42ca97bfb881a4a40a4c);
+            
+    
+        var marker_5ddfde99894e42f691e0c56955402571 = L.marker(
+            [48.843811, 2.317165],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_2fcf1dbb229e42ca97bfb881a4a40a4c);
+        
+    
+            var popup_08165dce7cd04decbc1e1f46fc128732 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ed580dcb006d425889f251adbfc0979e = $(`<div id="html_ed580dcb006d425889f251adbfc0979e" style="width: 100.0%; height: 100.0%;">Le Vitis +33 1 42 73 07 </div>`)[0];
+                popup_08165dce7cd04decbc1e1f46fc128732.setContent(html_ed580dcb006d425889f251adbfc0979e);
+            
+
+            marker_5ddfde99894e42f691e0c56955402571.bindPopup(popup_08165dce7cd04decbc1e1f46fc128732)
+            ;
+
+            
+        
+    
+        var marker_bcc0151d91554dce884cccf942970b86 = L.marker(
+            [48.848698, 2.296633],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_2fcf1dbb229e42ca97bfb881a4a40a4c);
+        
+    
+            var popup_11c185b55c9a412cbc2aa76f2c67bfa1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_dcf4e11ea62d42bdb765f9c8b103cde9 = $(`<div id="html_dcf4e11ea62d42bdb765f9c8b103cde9" style="width: 100.0%; height: 100.0%;">Jium +33 1 45 75 20 </div>`)[0];
+                popup_11c185b55c9a412cbc2aa76f2c67bfa1.setContent(html_dcf4e11ea62d42bdb765f9c8b103cde9);
+            
+
+            marker_bcc0151d91554dce884cccf942970b86.bindPopup(popup_11c185b55c9a412cbc2aa76f2c67bfa1)
+            ;
+
+            
+        
+    
+        var marker_c71e2c4feb2242178c8853fe3cb3ab74 = L.marker(
+            [48.842505, 2.313895],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_2fcf1dbb229e42ca97bfb881a4a40a4c);
+        
+    
+            var popup_d7b19235e1974c7bab0d4ff0aa97bf70 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bfaf1140b3e44970a4a3387831db6827 = $(`<div id="html_bfaf1140b3e44970a4a3387831db6827" style="width: 100.0%; height: 100.0%;">Pilgrim + 33 1 40 29 09</div>`)[0];
+                popup_d7b19235e1974c7bab0d4ff0aa97bf70.setContent(html_bfaf1140b3e44970a4a3387831db6827);
+            
+
+            marker_c71e2c4feb2242178c8853fe3cb3ab74.bindPopup(popup_d7b19235e1974c7bab0d4ff0aa97bf70)
+            ;
+
+            
+        
+    
+        var marker_3a59e8becd414e0caa1e11b49ccca283 = L.marker(
+            [48.833219, 2.30573],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_2fcf1dbb229e42ca97bfb881a4a40a4c);
+        
+    
+            var popup_34b99087dd6c4596810bf42913933577 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_abc516bb27624b87b5b8d8821f3bf764 = $(`<div id="html_abc516bb27624b87b5b8d8821f3bf764" style="width: 100.0%; height: 100.0%;">Le Petit Pan +33 1 42 50 04 </div>`)[0];
+                popup_34b99087dd6c4596810bf42913933577.setContent(html_abc516bb27624b87b5b8d8821f3bf764);
+            
+
+            marker_3a59e8becd414e0caa1e11b49ccca283.bindPopup(popup_34b99087dd6c4596810bf42913933577)
+            ;
+
+            
+        
+    
+        var marker_efbfb0bad2d54a8e8873f3bcd5afc703 = L.marker(
+            [48.833522, 2.294466],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_2fcf1dbb229e42ca97bfb881a4a40a4c);
+        
+    
+            var popup_67be261c8c2644a0a5b01933934b1ebf = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3147ab629b7a4a93a2c012ef91c0ec70 = $(`<div id="html_3147ab629b7a4a93a2c012ef91c0ec70" style="width: 100.0%; height: 100.0%;">Café Noisette +33 1 45 35 86 </div>`)[0];
+                popup_67be261c8c2644a0a5b01933934b1ebf.setContent(html_3147ab629b7a4a93a2c012ef91c0ec70);
+            
+
+            marker_efbfb0bad2d54a8e8873f3bcd5afc703.bindPopup(popup_67be261c8c2644a0a5b01933934b1ebf)
+            ;
+
+            
+        
+    
+        var marker_9e22c59b3bb14dea8078827727bd4625 = L.marker(
+            [48.833087, 2.305743],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_2fcf1dbb229e42ca97bfb881a4a40a4c);
+        
+    
+            var popup_805113c44d36402ab854c3a46577def4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2f6a9b3fcc024b59a19191db8edb7805 = $(`<div id="html_2f6a9b3fcc024b59a19191db8edb7805" style="width: 100.0%; height: 100.0%;">Le Grand Pan +33 1 42 50 02 </div>`)[0];
+                popup_805113c44d36402ab854c3a46577def4.setContent(html_2f6a9b3fcc024b59a19191db8edb7805);
+            
+
+            marker_9e22c59b3bb14dea8078827727bd4625.bindPopup(popup_805113c44d36402ab854c3a46577def4)
+            ;
+
+            
+        
+    
+        var marker_57b914eb12be40a0bcdf607006184c06 = L.marker(
+            [48.843795, 2.296712],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_2fcf1dbb229e42ca97bfb881a4a40a4c);
+        
+    
+            var popup_38942bf46b7f4eda94b00e1b7a5c0b93 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_318db658da35493a9f07e3f47f36f704 = $(`<div id="html_318db658da35493a9f07e3f47f36f704" style="width: 100.0%; height: 100.0%;">Naturellement +33 1 73 73 23 </div>`)[0];
+                popup_38942bf46b7f4eda94b00e1b7a5c0b93.setContent(html_318db658da35493a9f07e3f47f36f704);
+            
+
+            marker_57b914eb12be40a0bcdf607006184c06.bindPopup(popup_38942bf46b7f4eda94b00e1b7a5c0b93)
+            ;
+
+            
+        
+    
+        var marker_ce0644268bd648fcaf2e162f929a4878 = L.marker(
+            [48.851402, 2.292284],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_2fcf1dbb229e42ca97bfb881a4a40a4c);
+        
+    
+            var popup_0ec3d6594bcb41909289e0eba41c4d95 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5ad61c756af2408285bb741de2335916 = $(`<div id="html_5ad61c756af2408285bb741de2335916" style="width: 100.0%; height: 100.0%;">La Cantine du Troquet Dupleix +33 1 45 75 98 </div>`)[0];
+                popup_0ec3d6594bcb41909289e0eba41c4d95.setContent(html_5ad61c756af2408285bb741de2335916);
+            
+
+            marker_ce0644268bd648fcaf2e162f929a4878.bindPopup(popup_0ec3d6594bcb41909289e0eba41c4d95)
+            ;
+
+            
+        
+    
+        var marker_ec2f63c960fc403396b6a54526b318e7 = L.marker(
+            [48.845334, 2.299085],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_2fcf1dbb229e42ca97bfb881a4a40a4c);
+        
+    
+            var popup_7dec4f0c06c040e5a9eebd9ad7219420 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_65141f1be98847558ab017785e313dd5 = $(`<div id="html_65141f1be98847558ab017785e313dd5" style="width: 100.0%; height: 100.0%;">Neige d’Eté +33 1 42 73 66 </div>`)[0];
+                popup_7dec4f0c06c040e5a9eebd9ad7219420.setContent(html_65141f1be98847558ab017785e313dd5);
+            
+
+            marker_ec2f63c960fc403396b6a54526b318e7.bindPopup(popup_7dec4f0c06c040e5a9eebd9ad7219420)
+            ;
+
+            
+        
+    
+        var marker_44fb1aaa7f4f4e31827752430bd867ee = L.marker(
+            [48.835621, 2.284741],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_2fcf1dbb229e42ca97bfb881a4a40a4c);
+        
+    
+            var popup_f2ce135eea5647e182e069e42a7396fc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c5d81175853249da873e3e07f01bba48 = $(`<div id="html_c5d81175853249da873e3e07f01bba48" style="width: 100.0%; height: 100.0%;">Le Beurre Noisette +33 1 48 56 82 </div>`)[0];
+                popup_f2ce135eea5647e182e069e42a7396fc.setContent(html_c5d81175853249da873e3e07f01bba48);
+            
+
+            marker_44fb1aaa7f4f4e31827752430bd867ee.bindPopup(popup_f2ce135eea5647e182e069e42a7396fc)
+            ;
+
+            
+        
+</script>

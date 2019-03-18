@@ -1,0 +1,5 @@
+[DEFAULT]
+MyName = Tashi
+
+[SQLITE]
+DataDB = fooding.db
