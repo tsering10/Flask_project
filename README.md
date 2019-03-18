@@ -16,7 +16,7 @@ What things you need to install the software and how to install them:
 
 
 
-In a separate terminal, in order to run to run the development server: 
+In a separate terminal, to run the development server: 
 
 > python3 main.py
 
